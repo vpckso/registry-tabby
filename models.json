@@ -185,7 +185,7 @@
   {
     "license_name": "The aiXcoder Model License",
     "license_url": "https://huggingface.co/aiXcoder/aixcoder-7b-base/blob/main/MODEL_LICENSE",
-    "prompt_template": "<s>▁<AIX-SPAN-PRE>{prefix}▁<AIX-SPAN-POST>{suffix}▁<AIX-SPAN-MIDDLE></s>",
+    "prompt_template": "<s>▁<AIX-SPAN-PRE>▁<AIX-SPAN-POST>{suffix}▁<AIX-SPAN-MIDDLE>{prefix}",
     "name": "AiXcoder-7B-Q4",
     "provider_url": "https://huggingface.co/aiXcoder/aixcoder-7b-base",
     "urls": [
